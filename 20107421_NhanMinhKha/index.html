@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: auto;
+        }
+        .wrapper{
+            height: 800px;
+            width: 1090px;
+        }
+        header{
+           height: 150px;
+           width: 100%;
+           background-color: aquamarine;
+           line-height: 150px;
+           text-align: center;
+        }
+        nav{
+            height: 50px;
+            width: 100%;
+            background-color: rgb(183, 210, 233);
+        }
+
+        .menu li{
+            list-style: none;
+            float: left;
+            width: 218px;
+            text-align: center;
+            line-height: 50px;
+            position: relative;
+        }
+        li a{
+            font-weight: bold;
+            text-decoration: none;
+        }
+        li:hover {
+            background-color: rgb(51, 60, 143);
+        }
+        li:hover>a{
+            font-style: italic;
+            color: red;
+        }
+        li .sub-menu{
+            background-color: rgb(183, 210, 233);
+            display: none;
+        }
+        li:hover>.sub-menu{
+            display: block;
+            position: absolute;
+        }
+        li .sub-menu li:hover>.sub-menu{
+            top: 0px;
+            left: 218px;
+        }
+        .content{
+            height: 500px;
+            width: 100%;
+        }
+        aside{
+            height: 100%;
+            width: 30%;
+            background-color: rgb(135, 69, 197);
+            float: left;
+        }
+        section{
+            height: 100%;
+            width: 70%;
+            background-color: rgb(154, 218, 82);
+            float: left;
+        }
+        footer{
+            height: 100px;
+            width: 100%;
+            background-color: rgb(54, 53, 53);
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>TRƯỜNG ĐẠI HỌC CÔNG NGHIỆP THÀNH PHỐ HỒ CHÍ MINH</h1>
+        </header>
+        <nav>
+            <ul class="menu">
+                <li><a href="https://iuh.edu.vn">HOME</a></li>
+                <li><a href="#">SERVICES</a>
+                    <ul class="sub-menu">
+                        <li><a href="">COMPUTER</a></li>
+                        <li><a href="">LAPTOP</a>
+                            <ul class="sub-menu">
+                                <li><a href="">ACER</a></li>
+                                <li><a href="">HP</a></li>
+                                <li><a href="">MSI</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">MOBILE DEVICE</a></li>
+                    </ul>               
+                </li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">HELP</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <aside>
+
+            </aside>
+            <section>
+
+            </section>
+        </div>
+        <footer>
+
+
+        </footer>
+    </div>
+</body>
+</html>
