@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Travel reservation form</h3>
+    <h5>* denotes mandotory</h5>
+    <label for="fname">Full name*: <br></label>
+    <input type="text" name="fname" id="fname" placeholder="FirstName LastName" maxlength="50"><br>
+    <label for="email">Email address*: <br></label>
+    <input type="email" name="email" id="email" placeholder="EMAIL_ADDRESS" maxlength="50"><br>
+    <label for="sel">Select Tour Package*: <br></label>
+    <select name="sel" id="sel" style="width: 80px;">
+        <option value="Goa">Goa</option>
+        <option value="Pa">Paris</option>
+        <option value="Vn">Viet Nam</option>
+    </select><br>
+    <label for="date">Arrival date*: <br></label>
+    <input type="datetime" name="date" id="date" placeholder="m/d/y"><br>
+    <label for="num">Number of persons*: <br></label>
+    <input type="number" name="num" id="num" placeholder="UNKNOWN_TYPE"><br>
+    <label for="avil">What would you want to avail?* <br></label>
+    Boarding <input type="checkbox" name="bd" id="avail"><br>
+    Fooding <input type="checkbox" name="fd" id="avail"><br>
+    Sight seeing <input type="checkbox" name="ss" id="avail"><br>
+    <label for="code">Discout Coupon code: <br></label>
+    <input type="text" name="code" id="code" maxlength="50" placeholder="UNKNOWN_TYPE"><br>
+    <label for="term">Terms and conditions* <br></label>
+    <input type="radio" name="1" id="term"> I agree <input type="radio" name="1" id="term"> I disagree <br>
+    <input type="submit" value="Complete reservaton">
+</body>
+</html>
