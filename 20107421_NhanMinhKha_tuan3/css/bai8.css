@@ -1,0 +1,91 @@
+.bordercolor{
+    text-align: center;
+    width: 600px;
+    border-color: green yellow blue pink; 
+    border-style: solid; 
+    border-width: 15px;
+}
+.borderstyle{
+    text-align: center;
+    width: 600px;
+    border-color: green yellow blue pink;
+    border-style: solid dotted groove double;
+    border-width: 15px;
+}
+.borderwidth{
+    text-align: center;
+    width: 600px;
+    border-color: green yellow blue pink;
+    border-style: solid; 
+    border-width: 5px 10px 15px 20px;
+}
+.borderradius{
+    text-align: center;
+    width: 600px;
+    border-color: green yellow blue pink; 
+    border-style: solid; 
+    border-width: 15px;
+    border-radius: 0px 30px 70px 20px;
+}
+.adv{
+    text-align: center;
+    line-height: 70px;
+    width: 200px;
+    border-color: #52bc80;
+    border-style: groove ridge dashed groove;
+    border-width: 4px 30px 4px 30px;
+    border-radius: 100px 100px 0px 0px;
+}
+.round{
+    text-align: center;
+    line-height: 70px;
+    height: 100px;
+    width: 200px;
+    border-color: rgb(224, 214, 73); 
+    border-style: solid; 
+    border-width: 5px;
+    border-radius: 20px;
+}
+.advround{
+    text-align: center;
+    line-height: 100px;
+    height: 100px;
+    width: 200px;
+    border-color: violet; 
+    border-style: double; 
+    border-width: 0px 12px 0px 12px;
+    border-radius: 40px 40px 60px 60px;    
+}
+.bullet{
+    text-align: center;
+    line-height: 70px;
+    height: 100px;
+    width: 200px;
+    border-color: rgb(80, 80, 177); 
+    border-style: solid; 
+    border-width: 5px;
+    border-radius: 20px 100px 100px 20px;    
+}
+.leaf{
+    text-align: center;
+    line-height: 50px;
+    height: 70px;
+    width: 200px;
+    background-color: orange;
+    border-color: rgb(84, 189, 237) rgb(84, 189, 237) rgb(230, 129, 224) rgb(230, 129, 224); 
+    border-style: solid; 
+    border-width: 4px 30px 4px 40px;
+    border-radius: 0px 120px;    
+}
+.button button{
+    width: 200px;
+    padding: 8px;
+    background-color: rgb(59, 138, 194);
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    font-weight: 900;
+    font-size: 125%;
+}

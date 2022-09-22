@@ -1,0 +1,9 @@
+*{
+    padding: 200px;
+    margin: auto;
+}
+body{
+    background-image: url(../img/trulli.jpg), url(../img/webm.jpg);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, no-repeat;
+}

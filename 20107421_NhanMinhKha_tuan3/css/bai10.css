@@ -1,0 +1,22 @@
+#animated{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 0px;
+    top: 100px;
+    background: #ffcc00;
+}
+@keyframes scroll{
+    to{
+        left: 100%;
+        top: 70%;
+        transform: rotate(360deg);
+    }
+}
+div{
+    animation-name: scroll;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+}
