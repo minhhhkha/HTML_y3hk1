@@ -1,0 +1,90 @@
+*{
+    padding: 0px;
+    margin: auto;
+}
+.wrapper{
+    background-color: aqua;
+    height: 794px;
+    width: 1083px;
+    border: 3px solid red;
+}
+header{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(72, 197, 155);
+}
+#animated{
+    position: absolute;
+    height: 75px;
+    width: 75px;
+    background-color: aliceblue;
+    left: 0px;
+    top: 35px;
+    border-radius: 50%;
+}
+@keyframes move{
+    to{
+        left: 100%;
+        transform: rotate(360deg);
+    }
+}
+div #animated{
+    text-align: center;
+    line-height: 75px;
+    animation-name: move;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+nav{
+    height: 50px;
+    width: 100%;
+    background-color: chartreuse;
+}
+.menu li{
+    float: left;
+    line-height: 50px;
+    width: 170px;
+    list-style: none;
+    text-align: center;
+}
+li a{
+    text-decoration: none;
+}
+.content{
+    height: 400px;
+    width: 100%;
+
+}
+aside{
+    height: 100%;
+    width: 40%;
+    background-color: rgb(230, 227, 69);
+    float: left;
+}
+section{
+    height: 99.65%;
+    width: 59.81763%;
+    background-color: rgb(238, 218, 218);
+    float: left;
+    border: 1px solid red;
+    line-height: 40px;
+}
+section h1{
+    text-align: center;
+}
+section fieldset{
+    width: 350px;
+}
+section .form{
+    width: 300px;
+}
+.search{
+    line-height: 50px;
+}
+.search button{
+    height: 45px;
+    width: 50px;
+    border-radius: 50%;
+}
