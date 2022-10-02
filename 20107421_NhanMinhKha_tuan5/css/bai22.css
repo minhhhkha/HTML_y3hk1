@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: auto;
+}
+.wrapper{
+    height: 360px;
+    width: 1089px;
+}
+h1{
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    color: white;
+    background-color: #666666;
+    padding: 10px;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    
+}
+div .nav{
+    position: absolute;
+    height: 300px;
+    width: 100px;
+    background-color: #d6d6d6;
+    top: 80px;
+    left: 0px;
+    padding: 10px;
+    z-index: 1;
+}
+div .nav::before{
+    content: "Navigation";
+    font-size: 18px;
+    font-weight: bold;
+}
+div .section{
+    position: absolute;
+    height: 300px;
+    width: 959px;
+    top: 90px;
+    left: 130px;
+    padding: 10px;
+}
+div .section ul{
+    margin-left: 20px;
+}
