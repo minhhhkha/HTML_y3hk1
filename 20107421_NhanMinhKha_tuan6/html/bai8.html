@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="clock"></div>
+    <script>
+        function refresh(){
+            var d= new Date();
+            var h= d.getHours();
+            var m= d.getMinutes();
+            var s= d.getSeconds();
+            var day= d.getDay();
+            var date= d.getDate();
+            var mon= d.getMonth();
+            var year= d.getFullYear();
+            var days= new Array('Chủ nhật', 'Thứ hai', 'Thứ ba', 'Thứ tư', 'Thứ năm', 'Thứ sáu', 'Thứ bảy');
+            var mons= new Array('1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12');
+            var ampm;
+            if(s<10) s= '0'+s;
+            if(m<10) m= '0'+m;
+            if(h>12){
+                h -= 12;
+                ampm= 'PM';
+            }else ampm= 'AM';
+            if(h<10) h= '0'+h;
+            document.getElementById('clock').innerHTML= days[day]+', ngày '+date+'/'+mons[mon]+'/'+year+'<br>Bây giờ là '+h+':'+m+':'+s+' '+ampm;
+            setTimeout('refresh()', 1000); 
+        } 
+        refresh();
+    </script>
+</body>
+</html>

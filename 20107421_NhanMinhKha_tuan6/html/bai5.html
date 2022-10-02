@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var soluong, x;
+        soluong= prompt('Nhập số người trong phòng ban:', 5);
+        a= parseInt(soluong);
+        var ds= new Array(soluong);
+        for(i= 0; i< a; i++) ds[i]= prompt('Nhập họ tên người thứ '+(i+1)+' :');
+        ds.sort();
+        document.write('<h3>Danh sách phòng ban sau khi sắp xếp: </h3>');
+        for(x in ds) document.write(ds[x]+'<br>');
+    </script>
+</body>
+</html>
