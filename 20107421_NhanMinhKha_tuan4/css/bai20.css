@@ -1,0 +1,28 @@
+*{
+    padding: 0px;
+    margin: auto;
+}
+.menu{
+    width: 120px;
+}
+.menu li{
+    list-style: none;
+    background-color: #0d90df;
+    border: dashed white 2px;
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+}
+li a{
+    text-decoration: none;
+    color: rgb(40, 40, 171);
+}
+.sub{
+    display: none;
+}
+li:hover>.sub{
+    display: block;
+    position: absolute;
+    top: -7px;
+    left: 110px;
+}

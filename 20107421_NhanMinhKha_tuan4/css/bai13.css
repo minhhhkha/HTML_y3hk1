@@ -1,0 +1,45 @@
+p{
+    margin-left: 50px;
+    width: 135px;
+}
+figure{
+    position: absolute;
+}
+p{
+    margin-top: 180px;
+}
+.img1{
+    float: left;
+    border: blue solid 2px;
+    margin-right: 20px;
+    position: relative;
+    height: 230px;
+    width: 220px;
+}
+.img2{
+    float: left;
+    border: blue solid 2px;
+    margin-right: 20px;
+    position: relative;
+    height: 230px;
+    width: 220px;
+}
+.img3{
+    float: left;
+    border: blue solid 2px;
+    margin-right: 20px;
+    position: relative;
+    height: 230px;
+    width: 220px;
+}
+.img4{
+    float: left;
+    border: blue solid 2px;
+    margin-right: 20px;
+    position: relative;
+    height: 230px;
+    width: 220px;
+}
+figure:hover{
+    zoom: 110%
+}

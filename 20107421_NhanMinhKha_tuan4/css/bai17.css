@@ -1,0 +1,21 @@
+*{
+    padding: 0px;
+    margin: auto;
+}
+.menuX{
+    height: 50px;
+    width: 1089px;
+    background-color: rgb(213, 58, 58);
+}
+.menuX li{
+    float: left;
+    list-style: none;
+    width: 181.5px;
+    text-align: center;
+    line-height: 50px;
+}
+.menuX li>a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}

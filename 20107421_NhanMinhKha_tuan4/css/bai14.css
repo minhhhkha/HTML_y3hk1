@@ -1,0 +1,21 @@
+.transition{
+    height: 170px;
+    width: 300px;
+    background: #6FAC21;
+    border-radius: 10px;
+    opacity: 0.8;
+    transition: all 2s linear;
+    margin: 50px 50px;
+    border-top: solid red;
+    border-right: dashed red;
+    border-bottom: dashed red;
+    border-left: double red;
+}
+p{
+    color: white;
+    text-align: justify;
+    transition: all 2s;
+}
+.transition:hover{
+    transform: scale(2) rotate(360deg);
+}
