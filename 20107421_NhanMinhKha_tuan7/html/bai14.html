@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var nhap= prompt('Nhập số credit card của bạn:')
+        function check_cc(str){
+            regexp= /^\d{4}-\d{4}-\d{4}-\d{4}$/
+            if(regexp.test(str)){
+                alert('Đúng định dạng.')
+            } 
+            else {
+                alert('Sai định dạng.')
+            }
+        }
+        check_cc(nhap)
+    </script>
+</body>
+</html>
