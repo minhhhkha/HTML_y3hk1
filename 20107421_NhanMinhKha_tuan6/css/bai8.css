@@ -1,0 +1,17 @@
+*{
+    padding: 0px;
+    margin: auto;
+}
+.wrapper{
+    margin-top: 100px;
+    height: 100px;
+    width: 200px;
+    background-color: rgb(29, 73, 73);
+    border-radius: 30px;
+}
+#clock{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    line-height: 32px;
+}

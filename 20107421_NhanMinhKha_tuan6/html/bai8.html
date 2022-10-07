@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../css/bai8.css">
 </head>
 <body>
-    <div id="clock"></div>
+    <div class="wrapper">
+        <p id="clock"></p>
+    </div> 
     <script>
         function refresh(){
             var d= new Date();
@@ -28,7 +31,7 @@
                 ampm= 'PM';
             }else ampm= 'AM';
             if(h<10) h= '0'+h;
-            document.getElementById('clock').innerHTML= days[day]+', ngày '+date+'/'+mons[mon]+'/'+year+'<br>Bây giờ là '+h+':'+m+':'+s+' '+ampm;
+            document.getElementById('clock').innerHTML= 'Hôm nay là '+days[day]+'<br>Ngày '+date+'/'+mons[mon]+'/'+year+'<br>Bây giờ là '+h+':'+m+':'+s+' '+ampm;
             setTimeout('refresh()', 1000); 
         } 
         refresh();
